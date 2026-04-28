@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 from paths import *
 
-def setup_logger(LOG_DIR, log_file_prefix="AI_Driven_Portfolio_Logs"):
+def setup_logger(LOG_DIR, log_file_prefix="AI_Agents_Logs"):
     # Ensure log directory exists
     os.makedirs(LOG_DIR, exist_ok=True)
     
